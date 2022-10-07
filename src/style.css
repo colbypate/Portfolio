@@ -1,0 +1,196 @@
+body{
+    font-family: 'Share Tech', sans-serif;
+}
+
+section {
+    background-color: white;
+}
+.hero {
+    background-color:black;
+    height:100vh;
+    color:white;
+    font-size: 40px;
+}
+footer {
+    background-color: black;
+    color: white;
+    text-align: center;
+    padding: 80px;
+}
+nav {
+    display: flex;
+    justify-content: space-between;
+    background-color: black;
+
+}
+ul {
+    display: flex;
+    list-style-type: none;
+    width: 500px;
+    justify-content: space-around;
+    font-size: 25px;
+    
+}
+nav .nav-bar li a:hover {
+    background: greenyellow;
+}
+
+li {
+    text-decoration: none;
+}
+h1 {
+    font-size: 90px;
+    margin: 0;
+
+}
+h2 {
+    font-size: 50px;
+
+}
+p {
+
+    margin: 0;
+
+}
+.subtext {
+    font-size: 15px;
+}
+
+
+.hero-positioning{
+    display: flex;
+    height: 100%;
+    justify-content: space-between;
+    align-items: center;
+}
+.hero-text {
+    margin-left: 80px;
+    margin-bottom: 200px;
+}
+.button {
+    width: 200px;
+    height: 55px;
+    border-radius:40px;
+    text-align: center;
+    background-color:grey;
+    padding-top: 5px;
+    margin-top: 10px;
+    color: black;
+}
+.button:hover {
+    background-color: greenyellow;
+}
+
+.button:active {
+    background-color: darkgrey;
+    color: grey;
+}
+
+.socials {
+    padding-bottom: 200px;
+}
+.logo {
+    height: 60px;
+    margin: 30px;
+    opacity: 1;
+    background-color: gray;
+
+}
+
+.dropdown {
+
+    display: none;
+} 
+
+.social {
+    margin: 15px;
+}
+
+.sub-section {
+    display: flex;
+    justify-content: space-around;
+    padding: 80px;
+}
+
+.sub-section-alternative {
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+    padding: 80px;
+
+}
+
+.headshot {
+    width: 500px;
+    height: 500px;
+    border-radius: 500px;
+}
+.headshot-container {
+    display: flex;
+    align-items: center;
+}
+.project-card {
+    width: 400px;
+    height: 800px;
+    box-shadow: 5px 5px 20px;
+}
+.project-container {
+    display: flex;
+    justify-content: space-around;
+}
+
+@media only screen and (max-width: 1000px) {
+    .project-container {
+        display: flex;
+        flex-wrap: wrap;
+    }
+}
+
+hr {
+    margin-left: 20px;
+    margin-right: 20px;
+}
+.project-link {
+    text-decoration: none;
+    color: bisque;
+}
+a {
+    color: white;
+    text-decoration: none;
+}
+
+.hamburger {
+    display: none;
+}
+
+@media only screen and (max-width: 800px) {
+    .hamburger {
+        border: 0;
+        background-color: transparent;
+        color: white;
+        font-size: 30px;
+        display: block;
+        margin: 20px;
+        align-self: flex-end;
+        
+    }
+    ul {
+        display: none;
+        background-color: rgb(7, 7, 7);
+        margin: 20px;
+        width: auto;
+        
+    }
+
+    ul.show {
+        display: block;
+    }
+    nav {
+        display: flex;
+        flex-direction: column-reverse;
+        background-color: rgb(7, 7, 7);
+    }
+    .logo {
+        display: none;
+    }
+}
